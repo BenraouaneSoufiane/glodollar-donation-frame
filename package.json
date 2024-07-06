@@ -1,7 +1,7 @@
 {
-    "name": "typedexpress",
+    "name": "glodollar-donation-frame",
     "version": "1.0.0",
-    "description": "",
+    "description": "Simple USDGLO donation frame",
     "main": "src/index.ts",
     "scripts": {
         "start": "set TS_NODE_FILES=true & node -r ts-node/register/transpile-only src/index.ts",
@@ -9,7 +9,7 @@
         "eslint": "eslint src/**/*.{js,ts,tsx}"
     },
     "keywords": [],
-    "author": "Tomas Nilsson",
+    "author": "Benraouane Soufiane",
     "license": "ISC",
     "devDependencies": {
         "@types/express": "^4.17.21",
