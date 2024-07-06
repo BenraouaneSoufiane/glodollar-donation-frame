@@ -86,20 +86,20 @@ app.get('/glodollar',async(req,res)=>{
       <meta property="fc:frame:image" content="https://frames.cryptocheckout.co/glodollar-select.png" />
       <meta property="fc:frame:button:1" content="💸 Give Directly" />
       <meta property="fc:frame:button:1:action" content="tx" />
-      <meta property="fc:frame:button:1:target" content="https://frames.cryptocheckout.co/get_tx_data" />
-      <meta property="fc:frame:button:1:post_url" content="https://frames.cryptocheckout.co/tx_callback" />
+      <meta property="fc:frame:button:1:target" content="https://frames.cryptocheckout.co/glodollar/get_tx_data" />
+      <meta property="fc:frame:button:1:post_url" content="https://frames.cryptocheckout.co/glodollar/tx_callback" />
       <meta property="fc:frame:button:2" content="🌳 Giving Green" />
       <meta property="fc:frame:button:2:action" content="tx" />
-      <meta property="fc:frame:button:2:target" content="https://frames.cryptocheckout.co/get_tx_data" />
-      <meta property="fc:frame:button:2:post_url" content="https://frames.cryptocheckout.co/tx_callback" />
+      <meta property="fc:frame:button:2:target" content="https://frames.cryptocheckout.co/glodollar/get_tx_data" />
+      <meta property="fc:frame:button:2:post_url" content="https://frames.cryptocheckout.co/glodollar/tx_callback" />
       <meta property="fc:frame:button:3" content="🐹 Animal Charity Evaluators" />
       <meta property="fc:frame:button:3:action" content="tx" />
-      <meta property="fc:frame:button:3:target" content="https://frames.cryptocheckout.co/get_tx_data" />
-      <meta property="fc:frame:button:3:post_url" content="https://frames.cryptocheckout.co/tx_callback" />
+      <meta property="fc:frame:button:3:target" content="https://frames.cryptocheckout.co/glodollar/get_tx_data" />
+      <meta property="fc:frame:button:3:post_url" content="https://frames.cryptocheckout.co/glodollar/tx_callback" />
       <meta property="fc:frame:button:4" content="✌️ UNHCR" />
       <meta property="fc:frame:button:4:action" content="tx" />
-      <meta property="fc:frame:button:4:target" content="https://frames.cryptocheckout.co/get_tx_data" />
-      <meta property="fc:frame:button:4:post_url" content="https://frames.cryptocheckout.co/tx_callback" />
+      <meta property="fc:frame:button:4:target" content="https://frames.cryptocheckout.co/glodollar/get_tx_data" />
+      <meta property="fc:frame:button:4:post_url" content="https://frames.cryptocheckout.co/glodollar/tx_callback" />
       <meta property="fc:frame:input:text" content="Please enter amount in USDGLO" />
       
       </head></html>`);
@@ -176,5 +176,4 @@ app.use(function (_req: Express.Request, res: Express.Response) {
 // *************************************************
 
 https.createServer(options, app).listen(PORT, () => console.log(`Webserver running at http://localhost:${PORT}/`));
-
 
